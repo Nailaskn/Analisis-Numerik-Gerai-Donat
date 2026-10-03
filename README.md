@@ -83,10 +83,10 @@ Perhitungan dilakukan melalui beberapa tahap:
 3. Mengukur lebar masing-masing lambung pada setiap titik.
 4. Menghitung luas penampang menggunakan rumus:
    
-   A_i = w_i × h
+   $A_i = w_i × h$
 
-5. Menggunakan metode Simpson 1/3 untuk menghitung volume masing-masing lambung.
-6. Menjumlahkan volume kedua lambung untuk mendapatkan volume total.
+6. Menggunakan metode Simpson 1/3 untuk menghitung volume masing-masing lambung.
+7. Menjumlahkan volume kedua lambung untuk mendapatkan volume total.
 
 Metode Simpson 1/3 digunakan karena jumlah interval yang digunakan adalah 16, sehingga memenuhi syarat jumlah interval genap.
 
