@@ -52,6 +52,7 @@ Hasil analisis menunjukkan hubungan linear antara jumlah penjualan dan revenue p
 
 
 # Perhitungan Volume Lambung Kapal
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/f58074fc-2521-4064-970c-5524683992f6" />
 
 ## Deskripsi
 
@@ -69,7 +70,6 @@ Proyek ini merupakan tugas Analisis Numerik yang bertujuan untuk menghitung volu
 Data yang digunakan diperoleh dari gambar tampak atas dan tampak bawah kapal. Bagian reserve buoyancy tidak digunakan dalam perhitungan, sehingga diperoleh 16 interval dengan 17 titik pengukuran.
 
 Data yang digunakan meliputi:
-- Grid 2 sampai grid 18
 - Jumlah interval = 16
 - Jarak antar titik = 10 cm
 - Tinggi penampang = 10 cm
