@@ -49,3 +49,61 @@ Hasil analisis menunjukkan hubungan linear antara jumlah penjualan dan revenue p
 ## File
 
 `Analisis_Numerik_Donat_Naila.ipynb` berisi seluruh proses analisis, kode Python, visualisasi, hasil perhitungan, dan interpretasi.
+
+
+# Perhitungan Volume Lambung Kapal
+
+## Deskripsi
+
+Proyek ini merupakan tugas Analisis Numerik yang bertujuan untuk menghitung volume dua lambung kapal berdasarkan data pengukuran pada grid menggunakan metode integrasi numerik Simpson 1/3.
+
+## Tujuan
+
+1. Menentukan titik pengukuran dan jarak antar titik berdasarkan grid pada gambar kapal.
+2. Menghitung luas penampang lambung pada setiap titik pengukuran.
+3. Menerapkan metode Simpson 1/3 untuk menghitung volume masing-masing lambung.
+4. Menentukan volume total kedua lambung kapal.
+
+## Data
+
+Data yang digunakan diperoleh dari gambar tampak atas dan tampak bawah kapal. Bagian reserve buoyancy tidak digunakan dalam perhitungan, sehingga diperoleh 16 interval dengan 17 titik pengukuran.
+
+Data yang digunakan meliputi:
+- Grid 2 sampai grid 18
+- Jumlah interval = 16
+- Jarak antar titik = 10 cm
+- Tinggi penampang = 10 cm
+- Lebar lambung pada setiap titik pengukuran
+
+## Metode
+
+Perhitungan dilakukan melalui beberapa tahap:
+1. Menentukan grid yang digunakan dengan mengabaikan bagian reserve buoyancy.
+2. Menentukan jarak antar titik pengukuran.
+3. Mengukur lebar masing-masing lambung pada setiap titik.
+4. Menghitung luas penampang menggunakan rumus:
+   
+   A_i = w_i × h
+
+5. Menggunakan metode Simpson 1/3 untuk menghitung volume masing-masing lambung.
+6. Menjumlahkan volume kedua lambung untuk mendapatkan volume total.
+
+Metode Simpson 1/3 digunakan karena jumlah interval yang digunakan adalah 16, sehingga memenuhi syarat jumlah interval genap.
+
+## Hasil
+
+Hasil perhitungan menggunakan metode Simpson 1/3 diperoleh:
+
+| Bagian | Volume |
+|---|---:|
+| Lambung 1 | 31,61 liter |
+| Lambung 2 | 31,32 liter |
+| Total | 62,93 liter |
+
+Volume total kedua lambung kapal yang diperoleh adalah sekitar **62,93 liter**.
+
+Hasil tersebut merupakan pendekatan numerik karena data lebar lambung diperoleh melalui pengukuran pada gambar grid.
+
+## File
+
+`ANALISIS_NUMERIK_KAPAL.ipynb` berisi seluruh proses perhitungan, kode Python, data pengukuran, penerapan metode Simpson 1/3, hasil perhitungan, dan interpretasi.
