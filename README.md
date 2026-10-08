@@ -96,11 +96,10 @@ Hasil perhitungan menggunakan metode Simpson 1/3 diperoleh:
 
 | Bagian | Volume |
 |---|---:|
-| Lambung 1 | 31,61 liter |
-| Lambung 2 | 31,32 liter |
-| Total | 62,93 liter |
+| Satu Lambung | 27.6242 m³ |
+| Kedua Lambung | 55.2484 m³ |
 
-Volume total kedua lambung kapal yang diperoleh adalah sekitar **62,93 m³**.
+Volume total kedua lambung kapal yang diperoleh adalah sekitar **55.2484 m³**.
 
 Hasil tersebut merupakan pendekatan numerik karena data lebar lambung diperoleh melalui pengukuran pada gambar grid.
 
